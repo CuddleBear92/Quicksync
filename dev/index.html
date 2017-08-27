@@ -1,6 +1,6 @@
 <!DOCTYPE HTML>
 <!--
-	Fractal by HTML5 UP
+	Hyperspace by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
@@ -11,29 +11,67 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 	</head>
-	<body id="top">
+	<body>
 
-		<!-- Header -->
-			<header id="header">
-				<div class="content">
-					<h1><a href="#">Quicksync</a></h1>
-					<p>An easy way to reduce load and skip the<br />
-					wait when syncing Hydrus for the first time.</p>
-					<ul class="actions">
-						<li><a href="https://github.com/Quartzic/Quicksync/releases/download/8_12_2017/Quicksync_8-12-2017.7z" class="button special icon fa-download">Download Latest</a></li>
-						<li><a href="#downloads" class="button icon fa-chevron-down scrolly">More Options</a></li>
-					</ul>
+		<!-- Sidebar -->
+			<section id="sidebar">
+				<div class="inner">
+					<nav>
+						<ul>
+							<li><a href="#intro">Quicksync</a></li>
+							<li><a href="#one">Information</a></li>
+							<li><a href="#two">Update files</a></li>
+							<li><a href="#three">Full installation</a></li>
+						</ul>
+					</nav>
 				</div>
-				<div class="image phone"><div class="inner"><img src="images/screen.jpg" alt="" /></div></div>
-			</header>
+			</section>
 
-		<!-- Two -->
-			<section id="downloads" class="wrapper">
-				<div class="inner alt">
-					<section class="spotlight">
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Intro -->
+					<section id="intro" class="wrapper style1 fullscreen fade-up">
+						<div class="inner">
+							<h1>Quicksync</h1>
+							<p>An easy way to reduce load and skip the wait </br>
+							when syncing Hydrus for the first time.</p>
+							<ul class="actions">
+								<li><a href="#two" class="button scrolly">Updates</a></li>
+								<li><a href="#three" class="button scrolly">Full</a></li>
+							</ul>
+						</div>
+					</section>
+
+					<section id="one" class="wrapper style2 fade-up">
+						<div class="inner">
+							<div class="features">
+								<section>
+									<span class="icon major fa-cloud-download"></span>
+									<h3>Reduce load</h3>
+									<p>By downloading updates from a file host, you can reduce load on the main tag repository server.</p>
+								</section>
+								<section>
+									<span class="icon major fa-tachometer"></span>
+									<h3>Skip processing</h3>
+									<p>Getting up-to-date can take a while for a fresh installation, since you have to map every tag.</p>
+								</section>
+							</div>
+						</div>
+					</section>
+					<section id="linebreak" class="wrapper style2 fade-up">
+					<div class="inner2">
+					<hr>
+					</div>
+					</section>
+					<section id="two" class="wrapper style2 fade-up">
+						<div class="inner">
+							<h2>Update Files</h2>
+							<p>These archives are much smaller and can be used to update Hydrus's tag repository.</br>
+							However, they are not pre-processed - so you should use a Full Installation if you're new.</p>
 							<table>
 								<thead>
 									<tr>
@@ -69,17 +107,50 @@
 										<td><ul class="actions small"><li><a href="https://mega.nz/#!IEYQHQAD!XH7Mr1XMJB5HdNrRLMx0FQWQjr-8c1gCGI9UxfxmZrE" class="button special small">Mega</a></li><li><a href="https://drive.google.com/uc?id=0B8XgA4H5htxSbGVMZXNiMXpTYnc&export=download" class="button special small">Google Drive</a></li><li><a href="https://github.com/Quartzic/Quicksync/releases/download/7_23_2017/Quicksync_7-23-2017.7z" class="button special small">GitHub</a></li></ul></td>
 									</tr>
 							</table>
+						</div>
 					</section>
-				</div>
-			</section>
+					<section id="linebreak" class="wrapper style2 fade-up">
+					<div class="inner2">
+					<hr>
+					</div>
+					</section>
+					<section id="three" class="wrapper style2 fade-up">
+						<div class="inner">
+							<h2>Full Installation</h2>
+							<p>These archives are much larger and less frequent, but they contain a full copy</br>
+							of Hydrus - no processing necessary! Great for getting new users up to speed.</p>
+							<table>
+								<thead>
+									<tr>
+										<th>Date</th>
+										<th>Archive Size</th>
+										<th>Downloads</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>8/13/2017</td>
+										<td>2.03GB</td>
+										<td><ul class="actions small"><li><a href="https://mega.nz/#!9RpxFaZC!TzIoBUFzwzJGmEQgvou6PQczjpVGSBv8lWAszlGNC5U" class="button special small">Mega</a></li></ul></td>
+									</tr>
+							</table>
+						</div>
+					</section>
+
+			</div>
 
 		<!-- Footer -->
-			<footer id="footer">
-				<p class="copyright">Site by Quartzic | <a href="http://html5up.net">HTML5 UP</a></p>
+			<footer id="footer" class="wrapper style1-alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>Site by Quartzic</li><li><a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
 			</footer>
 
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
