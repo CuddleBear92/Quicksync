@@ -38,6 +38,7 @@
 		-webkit-text-size-adjust: none;
 	}
 
+
 /* Box Model */
 
 	*, *:before, *:after {
@@ -69,6 +70,17 @@
 	body {
 		background: #312450;
 	}
+
+			body.is-loading *, body.is-loading *:before, body.is-loading *:after {
+			-moz-animation: none !important;
+			-webkit-animation: none !important;
+			-ms-animation: none !important;
+			animation: none !important;
+			-moz-transition: none !important;
+			-webkit-transition: none !important;
+			-ms-transition: none !important;
+			transition: none !important;
+		}
 
 /* Type */
 
